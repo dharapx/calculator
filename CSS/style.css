@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400&family=Orbitron:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Semi Condensed';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(130deg, #2c2c2b, #043d5e);
+}
+
+.container{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: #080800;
+    box-shadow: 6px 3px 15px rgba(113, 115, 119, 0.5);
+    /* box-shadow: inset 1 5px 1px 0 rgba(61, 65, 73, 0.5),
+    1 5px 5px rgba(36, 37, 39, 0.2),
+    1 15px 25px rgba(61, 65, 73, 0.5); */
+    
+}
+
+#brand{
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 3px;
+}
+
+input{
+    width: 320px;
+    border: none;
+    border-radius: 1%;
+    padding: 2px;
+    margin: 5px;
+    background: #5a9c5e;
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+    color: #270b0b;
+} 
+input::placeholder{
+    color: #270b0b;
+}
+
+.input-btn{
+    /* border: none; */
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid #b6b6a1;
+    border-radius: 15%;
+    background: transparent;
+    /* background: #5a9c5e; */
+    color: #e4f30d;
+    font-size: 20px;
+    /* box-shadow: 1px 5px 15px rgba(255, 255, 255, 0.2); */
+    /* box-shadow: inset 0 5px 1px 0 rgba(61, 65, 73, 0.5),
+    0 5px 5px rgba(36, 37, 39, 0.2),
+    0 15px 25px rgba(61, 65, 73, 0.5); */
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+button:hover{
+    box-shadow: 0 0 2px rgb(227, 252, 1),
+    0 0 3px rgb(227, 252, 1), 
+    0 0 4px rgb(227, 252, 1),
+    0 0 5px rgb(227, 252, 1);
+    background-color: #0ea703;
+    color: rgb(209, 230, 240);
+}
+
+.operator{
+    background-color: #f1f3e1;
+    color: #2c2c2b;
+    /* border:2px solid #06a2fc; */
+}
+
+
+.equalBtn{
+    background-color: #0c0c46;
+    color: rgb(125, 125, 145);
+    border:2px solid #1b04c7;
+}
+
+.equalBtn:hover{
+    background-color: #0827da;
+    color: rgb(209, 230, 240);
+}
+
+.function{
+    color: #f76868;
+    background-color: #230c0c;
+    border:2px solid #fc3706;
+}
+
+.function:hover{
+    color: #1a1818;
+    background-color: #f01818;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+}
+
